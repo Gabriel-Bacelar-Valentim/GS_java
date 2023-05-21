@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7584AD39-BE19-F3C0-1679-9A9313A6E5FA" name="multiplexacao">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:19:19 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

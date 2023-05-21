@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92F07CEF-EC5D-8319-F9E8-C3F8581B607D" name="Jogo">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 22:57:05 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="edicao_especial" id="D801A4DF-77CB-B70B-A43B-D9E690353BF8">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:25:00 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="editora" id="EBF11339-8BE7-FF2D-A162-310AFADFDAC0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:25:01 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

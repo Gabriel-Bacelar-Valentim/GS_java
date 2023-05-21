@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B71C8DDE-8FD1-477B-D169-8553D35C3C9A" name="contem/contido">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:16:34 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="emprestimo_itens" id="5B0AC6B2-295C-B4A2-F5DB-5EA02F1F6B2D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:17:03 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_emprestimo" id="432C90A2-422D-B604-EC71-D45A02B189A0">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:17:40 UTC</createdTime>
+<generatorID>0C5E896A-5F23-4C2B-521A-ECCBE693936F</generatorID>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<referedAttribute>B1E0194C-BE58-7505-B08C-8461136182AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

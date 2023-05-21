@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="4D9B5D52-492A-27B6-82DD-519D8F1B1672">
+<createdBy>Gabriel</createdBy>
+<createdTime>2023-05-21 23:13:48 UTC</createdTime>
+<ownerDesignName>checkpoint database</ownerDesignName>
+<engineerTo>
+<item key="43F37DD6-B2D8-240A-AB4E-FE80DA25ECDA" value="true"/>
+</engineerTo>
+<sourcePk>537CA63F-A1CE-ADB1-F938-8D741362954B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E031ECF6-5C22-5350-96BC-EDEC697D2736</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9B6ADCB6-CF38-97C2-29C0-380D8D8B3C54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
